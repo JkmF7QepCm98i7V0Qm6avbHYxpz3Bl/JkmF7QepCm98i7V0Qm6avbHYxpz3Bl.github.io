@@ -1,0 +1,427 @@
+.navigation a {
+  float: left;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+
+.navigation {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
+.links:hover {
+  background-color: blue;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+html {
+  cursor: URL('https://sweezy-cursors.com/wp-content/uploads/cursor/meteor-jupiter/meteor-jupiter-pointer-32x32.png'), auto;
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Other browsers(not tested on all of them)*/
+::-webkit-scrollbar {
+  display: block;
+}
+
+html::-webkit-scrollbar {
+  display: block;
+}
+
+body {
+  background-image: URL("images/background.jpg");
+
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  scrollbar-width: none;
+}
+
+
+.banner {
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+
+.backdiv {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 87%;
+  padding: 20px;
+  margin-top: 0px;
+  border-radius: 30px;
+  justify-content: space-between;
+  display: flex;
+  font-family: Tahoma, Verdana;
+}
+
+.backdivhead {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 87%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    border-radius: 30px;
+}
+
+
+.innerdiv {
+  color: white;
+  line-height: 2;
+  text-align: left;
+  animation:content-load 1000ms;
+}
+
+#outerdiv {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(239, 221, 188);
+  font-style: italic;
+  line-height: 2;
+  width: 87%;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 18px;
+}
+
+#chrisimg {
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+
+
+@keyframes content-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+
+.heads {
+  color: gold;
+  text-align: center;
+}
+
+
+#indexhead {
+  animation: moon-content-load 1000ms;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-700%);
+}
+
+#contact {
+  color: coral;
+  font-style: normal;
+}
+
+#contact a {
+  color: mediumspringgreen;
+}
+
+.btt {
+  color:skyblue;
+  text-decoration: none;
+}
+/*************Moon**************/
+
+@keyframes moon-content-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
+#spinmoon {
+  width: 210px;
+  height: 210px;
+  margin-top: 110px;
+  opacity: 0.8;
+}
+
+#mooncontent a {
+  color: wheat;
+  text-decoration: none;
+}
+
+#mooncontent {
+  animation: moon-content-load 1500ms;
+}
+
+/***************Solar System******************/
+
+#head {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 15px;
+  margin: 40px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+#title {
+  font-size: 20px;
+  animation: content-load 1000ms;
+}
+
+.navigations {
+  font-size: 18px;
+  color: wheat;
+  text-decoration: none;
+}
+
+.topic {
+  color: #f8bc04;
+  font-size: 20px;
+  line-height: 0px;
+}
+
+
+.info {
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: Tahoma, Verdana;
+}
+
+#head i {
+  font-weight: bold;
+  color: gold;
+  font-size: 18px;
+}
+
+
+
+.btt {
+  color: aqua;
+}
+
+.ssi {
+  justify-content: space-between;
+  display: flex;
+}
+
+.ssi img {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  margin: 15px;
+}
+
+@keyframes bullet-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
+@keyframes right-load {
+  0% {
+    transform: translateX(200%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
+
+/**Navigation animations**/
+
+#nav1 {
+  animation-fill-mode: forwards;
+  animation: bullet-load 800ms;
+}
+
+#nav2 {
+  animation: bullet-load 800ms;
+  animation-delay: 100ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+#nav3 {
+  animation: bullet-load 800ms;
+  animation-delay: 200ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+#nav4 {
+  animation: bullet-load 800ms;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+#nav5 {
+  animation: bullet-load 800ms;
+  animation-delay: 400ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+#nav6 {
+  animation: bullet-load 800ms;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+#nav7 {
+  animation: bullet-load 800ms;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+#nav8 {
+  animation: bullet-load 800ms;
+  animation-delay: 700ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+/**********Image of the day*****************/
+
+#iotdheader {
+  color: gold;
+  text-align: center;
+}
+
+#iotdheader a {
+  color: gold;
+  text-decoration: underline bold rgb(183, 202, 43);
+}
+
+.imgdiv {
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  margin: 20px;
+}
+
+.images {
+  width: 400px;
+  border-radius: 15px;
+}
+
+
+#maindiv {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 50px;
+  font-family: Tahoma, Verdana;
+}
+
+#pleft {
+  margin-left: 20px;
+}
+
+.left {
+  animation: bullet-load 1000ms;
+}
+
+.right {
+  animation: right-load 1000ms;
+
+}
+
+
+/************References*****************/
+
+#survey {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 280px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 50%;
+  animation: popup-survey 2000ms;
+  animation-fill-mode: forwards;
+  transform: translateX(-1000%);
+}
+
+
+#no {
+  position: relative;
+  left: 0;
+  right: 0;
+  transition: left ease 900ms;
+}
+
+.btn {
+  background-color: rgba(13, 237, 222, 0.917);
+  border-radius: 5px;
+  border: none;
+  width: 40px;
+}
+
+
+@keyframes popup-survey {
+  0% {
+    transform: translateX(400%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+#references {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: left;
+  width: 1000px;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 30px;
+}
+
+
+#references a {
+  color: rgb(13, 237, 222)
+}
+
+
+#fset {
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+legend {
+  padding: 7px;
+}
+
+#en i{
+  line-height: 1.6;
+  font-size: 17px;
+  color: aquamarine; 
+  padding: 10px;
+
+}
